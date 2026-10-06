@@ -1,6 +1,6 @@
 import streamlit as st
 import time
-from main import get_llm
+from api.app.main import get_llm
 from langchain_core.messages import HumanMessage, AIMessage
 
 # ==========================================
