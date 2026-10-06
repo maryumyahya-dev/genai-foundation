@@ -1,0 +1,17 @@
+[project]
+name = "genai-foundation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Maryam Yahya", email = "maryumyahya2005@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.4.3",
+    "langchain-ollama>=1.1.0",
+    "python-dotenv>=1.2.4",
+    "streamlit>=1.65.0",
+]
+
+
